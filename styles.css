@@ -1,0 +1,85 @@
+:root{
+    --orange: #ff8482;
+    --light-orange: #ffb294;
+    --cream: #f8d8a5;
+    --mint: #91be95;
+    --chocolate: #635a49;
+    --white: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+    /* outline: 1px solid red; */
+}
+body{
+    background-image: url(img/fondo\ 2.jpg);
+}
+header{
+    width: 800px;
+    margin: 0 auto;
+    background-color: var(--cream);
+}
+#searchBarContainer{
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+#searchBarIcon{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input{
+    border-radius: 20px;
+    border: 2px solid var(--chocolate);
+    font-size: 1rem;
+    padding: 10px;
+    text-align: end;
+}
+main{
+    width: 800px;
+    height: 100dvh;
+    margin: 0 auto;
+    background-color: var(--cream);
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: var(--chocolate);
+    color: var(--cream);
+    width: 100%;
+}
+#indexContainer{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+#indexImg{
+    border-radius: 0 15px 15px 0;
+    outline: 3px solid var(--chocolate);
+    z-index: 1;
+}
+#menuContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+}
+#menuContainer button{
+    font-size: 2rem;
+    width: 90%;
+    padding: 15px;
+    border-radius: 0 15px 15px 0;
+    background-color: var(--light-orange);
+    color: var(--white);
+    border: 2px solid var(--orange);
+}
+#menuContainer button:hover{
+    width: 100%;
+    background-color: var(--orange);
+}
