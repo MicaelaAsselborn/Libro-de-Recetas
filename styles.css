@@ -83,3 +83,41 @@ h1{
     width: 100%;
     background-color: var(--orange);
 }
+
+@media screen and (max-width: 450px){
+    header{
+        width: 100vw;
+    }
+    input{
+        width: 40%;
+    }
+    main{
+        width: 100vw;
+        height: 100dvh;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    #indexImg{
+        display: none;
+    }
+    #menuContainer{
+        width: 100%;
+        height: 70dvh;
+        background-image: url(img/portada.jpg);
+        outline: 3px solid var(--chocolate);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    #menuContainer button{
+        width: 70%;
+        font-size: 1.8rem;
+        border-radius: 20px;
+    }
+    #menuContainer button:hover{
+        width: 80%;
+        background-color: var(--orange);
+    }
+}

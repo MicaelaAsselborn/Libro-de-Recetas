@@ -1,0 +1,84 @@
+:root{
+    --orange: #ff8482;
+    --light-orange: #ffb294;
+    --cream: #f8d8a5;
+    --mint: #91be95;
+    --chocolate: #635a49;
+    --white: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+    /* outline: 1px solid red; */
+}
+body{
+    background-image: url(../img/fondo\ 2.jpg);
+}
+header{
+    width: 800px;
+    margin: 0 auto;
+    background-color: var(--cream);
+}
+#navContainer ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 1.6rem;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: var(--chocolate);
+}
+#navContainer a{
+    text-decoration: none;
+    color: var(--cream);
+}
+#navContainer a:hover{
+    font-weight: bold;
+    color: var(--white);
+}
+#searchBarContainer{
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+#searchBarIcon{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input{
+    border-radius: 20px;
+    border: 2px solid var(--chocolate);
+    font-size: 1rem;
+    padding: 10px;
+    text-align: end;
+}
+input:hover{
+    width: 30%;
+}
+main{
+    width: 800px;
+    height: 100dvh;
+    margin: 0 auto;
+    background-color: var(--cream);
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--chocolate);
+    padding: 20px;
+}
+.menuContainer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.listMenu{
+    width: 80%;
+}
+.banner{
+    border-radius: 20px;
+    outline: 3px solid var(--chocolate);
+}
